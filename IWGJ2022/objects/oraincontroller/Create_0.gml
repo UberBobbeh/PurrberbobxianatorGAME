@@ -1,0 +1,1 @@
+rain_obj = oRainDrop
