@@ -26,7 +26,6 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"9c8d5cf3-f4f0-4b6a-b383-3abfbba7c94c","path":"sprites/sKiller/sKiller.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"9c8d5cf3-f4f0-4b6a-b383-3abfbba7c94c","path":"sprites/sKiller/sKiller.yy",},"LayerId":{"name":"16b73beb-3cc3-44d4-bece-cbd2d3cb7809","path":"sprites/sKiller/sKiller.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"9c8d5cf3-f4f0-4b6a-b383-3abfbba7c94c","path":"sprites/sKiller/sKiller.yy",},"LayerId":{"name":"cd49277b-f888-4a23-bb74-c925fa317e91","path":"sprites/sKiller/sKiller.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sKiller","path":"sprites/sKiller/sKiller.yy",},"resourceVersion":"1.0","name":"9c8d5cf3-f4f0-4b6a-b383-3abfbba7c94c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
