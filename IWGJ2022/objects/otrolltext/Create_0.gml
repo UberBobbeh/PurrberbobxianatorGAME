@@ -1,0 +1,1 @@
+ttext = "wrong way dumbass"

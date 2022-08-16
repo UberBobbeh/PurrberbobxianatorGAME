@@ -10,9 +10,10 @@ function bgm_get_room_music(r) {
 	switch (r) {
 		case rTest01:
 		case rTest02:
-			return musEngine
+			return musHub
 			break
 		case rOpening:
+		case rTravel1:
 			return musBirds
 			break
 		default:

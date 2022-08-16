@@ -24,13 +24,13 @@ queued_speed.set(0, 0)
 #region Run & Facing
 var _rotControl = (global.setting[SETTING.CONTROL_ROTATIONAL] && vertical_direction == -1) ? -1 : 1
 
-if (button_left)
+if (button_left) && !frozen
 {
 	facing = -1 * _rotControl
 	velocity.x -= run_speed * _rotControl
 	running = true
 }
-else if (button_right)
+else if (button_right) && !frozen
 {
 	facing = 1 * _rotControl
 	velocity.x += run_speed * _rotControl

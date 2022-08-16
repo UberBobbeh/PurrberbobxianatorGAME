@@ -29,5 +29,14 @@ function world_restart_game() {
 	if (sprite_exists(pause_sprite))
 		sprite_delete(pause_sprite)
 	
+	//Reset Transitions
+	with oTransitions {
+		mode = transitionmode.none;
+		alpha = 0;
+	}
+	
+	//Stop Sounds
+	audio_stop_sound(sndWarp);
+	
 	room_goto(MENU_ROOM)
 }

@@ -57,6 +57,7 @@ if (button_changing != -1) {
 				case 0: // save select
 				menu_index = MENU_SUB_SAVE
 				option_index = 0
+				savedata_set_index(option_index)
 				savedata_read()
 				event_user(0)
 				break

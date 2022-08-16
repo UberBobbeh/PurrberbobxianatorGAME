@@ -32,7 +32,7 @@ if (DEBUG && global.game_running) {
 }
 
 // Game control
-if (global.game_running) {
+if (global.game_running && !global.cutscene) {
 	
 	// Pause
 	if (input_check_pressed("pause")) {

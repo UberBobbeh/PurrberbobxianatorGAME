@@ -31,6 +31,7 @@ debug_text = "DEBUG"
 global.game_playing = false // variable that says when the game is not in the menu and not in a cutscene
 global.game_paused = false // variable that says if the game is paused
 global.game_running = false // variable that says when the game is not in the menu
+global.cutscene = false // variable that says if the game is in a cutscene
 window_set_caption("Synth Engine")
 
 global.gamepad_slot = 0
@@ -53,6 +54,7 @@ part_system_depth(global.player_blood_part_sys, -101)
 global.audio = instance_create_layer(0, 0, layer, oAudio)
 global.input = instance_create_layer(0, 0, layer, oInput)
 global.savedata = instance_create_layer(0, 0, layer, oSaveData)
+global.transitions = instance_create_layer(0, 0, layer, oTransitions);
 
 global.input.initialize()
 savedata_set_defaults()

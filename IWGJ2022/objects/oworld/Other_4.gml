@@ -1,5 +1,8 @@
 ///@desc Room and particles
 
+// Reset cutscene
+global.cutscene = false;
+
 // Reset reset variables
 resetting_room = ""
 
