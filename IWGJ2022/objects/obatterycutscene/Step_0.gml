@@ -16,9 +16,9 @@ if global.cutscene {
 	}
 	
 	//Skip Cutscene
-	if input_check_pressed("skip") && timer < 400 {
+	if input_check_pressed("skip") && timer < 450 {
 		count = string_length(text);
-		timer = 400;
+		timer = 450;
 	}
 	
 	//End Cutscene
