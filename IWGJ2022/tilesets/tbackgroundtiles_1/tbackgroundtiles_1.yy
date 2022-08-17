@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sBackgroundTiles_1",
-    "path": "sprites/sBackgroundTiles_1/sBackgroundTiles_1.yy",
-  },
+  "spriteId": null,
   "tileWidth": 32,
   "tileHeight": 32,
   "tilexoff": 0,

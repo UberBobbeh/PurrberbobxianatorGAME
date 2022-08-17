@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sTimeMachine_1",
-    "path": "sprites/sTimeMachine_1/sTimeMachine_1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
