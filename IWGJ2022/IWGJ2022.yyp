@@ -48,6 +48,7 @@
     {"id":{"name":"oGravityArrowDown","path":"objects/oGravityArrowDown/oGravityArrowDown.yy",},"order":3,},
     {"id":{"name":"sndText","path":"sounds/sndText/sndText.yy",},"order":5,},
     {"id":{"name":"sndSave","path":"sounds/sndSave/sndSave.yy",},"order":3,},
+    {"id":{"name":"rFire","path":"rooms/rFire/rFire.yy",},"order":10,},
     {"id":{"name":"oGravityArrowUp","path":"objects/oGravityArrowUp/oGravityArrowUp.yy",},"order":4,},
     {"id":{"name":"oInput","path":"objects/oInput/oInput.yy",},"order":1,},
     {"id":{"name":"oInvisibleBlock","path":"objects/oInvisibleBlock/oInvisibleBlock.yy",},"order":3,},
@@ -320,6 +321,7 @@
     {"roomId":{"name":"rPast","path":"rooms/rPast/rPast.yy",},},
     {"roomId":{"name":"rGravity","path":"rooms/rGravity/rGravity.yy",},},
     {"roomId":{"name":"rPast9","path":"rooms/rPast9/rPast9.yy",},},
+    {"roomId":{"name":"rFire","path":"rooms/rFire/rFire.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Objects.yy","order":0,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
