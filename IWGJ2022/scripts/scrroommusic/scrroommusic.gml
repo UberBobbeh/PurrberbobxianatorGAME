@@ -17,6 +17,7 @@ function bgm_get_room_music(r) {
 			return musBirds
 			break
 		case rPast:
+		case rPast9:
 			return musHub
 		default:
 			return -1 // don't play any music
