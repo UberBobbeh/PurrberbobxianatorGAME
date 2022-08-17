@@ -1,10 +1,11 @@
 dialogue = "Use Time Machine";
 interactable = true;
+active = false;
 color = c_white;
 action = function() {
 	oPlayer.frozen = true;
 	oPlayer.visible = false;
 	global.cutscene = true;
 	sfx_play_sound(sndDoor);
-	with global.transitions transition(1, rTest01);
+	with global.transitions transition(1, oTransporter.destination);
 }

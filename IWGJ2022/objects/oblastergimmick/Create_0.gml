@@ -1,0 +1,1 @@
+blastmode = 0;

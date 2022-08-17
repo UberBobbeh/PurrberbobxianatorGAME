@@ -5,7 +5,7 @@ save_active = ds_map_create()
 save_is_read = false
 save_index = 0
 save_number = 5
-save_key = ["x", "y", "room", "death", "time", "item", "gravity_direction", "seed", "facing"]
+save_key = ["x", "y", "room", "death", "time", "item", "gravity_direction", "seed", "facing", "redGem", "blueGem", "greenGem"]
 save_prefix = "save"
 save_suffix = ""
 

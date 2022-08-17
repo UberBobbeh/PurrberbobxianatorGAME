@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Misc",
-    "path": "folders/Objects/Misc.yy",
+    "name": "Trigger",
+    "path": "folders/Objects/Trigger.yy",
   },
   "resourceVersion": "1.0",
   "name": "oTrollBlock",
