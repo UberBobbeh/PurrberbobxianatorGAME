@@ -1,2 +1,3 @@
-radius = 60;
-cherries = 5;
+radius = 50;
+object = oCherry2;
+cherries = 3;
