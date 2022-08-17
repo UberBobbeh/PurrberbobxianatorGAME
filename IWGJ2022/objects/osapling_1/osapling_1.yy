@@ -1,17 +1,11 @@
 {
-  "spriteId": {
-    "name": "sSapling_1",
-    "path": "sprites/sSapling_1/sSapling_1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oBlock_1",
-    "path": "objects/oBlock_1/oBlock_1.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
