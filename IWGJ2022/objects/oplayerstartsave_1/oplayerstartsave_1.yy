@@ -1,0 +1,42 @@
+{
+  "spriteId": {
+    "name": "sPlayerStart_1",
+    "path": "sprites/sPlayerStart_1/sPlayerStart_1.yy",
+  },
+  "solid": false,
+  "visible": false,
+  "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "oPlayerStart_1",
+    "path": "objects/oPlayerStart_1/oPlayerStart_1.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Player",
+    "path": "folders/Objects/Player.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "oPlayerStartSave_1",
+  "tags": [
+    "design",
+  ],
+  "resourceType": "GMObject",
+}

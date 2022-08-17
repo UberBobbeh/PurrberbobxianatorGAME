@@ -1,0 +1,43 @@
+{
+  "spriteId": {
+    "name": "sCamera_1",
+    "path": "sprites/sCamera_1/sCamera_1.yy",
+  },
+  "solid": false,
+  "visible": false,
+  "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "oCameraParent_1",
+    "path": "objects/oCameraParent_1/oCameraParent_1.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 0,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Camera",
+    "path": "folders/Objects/Camera.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "oCameraSmooth_1",
+  "tags": [
+    "design",
+  ],
+  "resourceType": "GMObject",
+}
