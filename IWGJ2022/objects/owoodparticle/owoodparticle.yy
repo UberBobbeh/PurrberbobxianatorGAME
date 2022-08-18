@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sAshParticle",
-    "path": "sprites/sAshParticle/sAshParticle.yy",
+    "name": "sWoodParticle",
+    "path": "sprites/sWoodParticle/sWoodParticle.yy",
   },
   "solid": true,
   "visible": true,
@@ -37,7 +37,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oAshParticle",
+  "name": "oWoodParticle",
   "tags": [],
   "resourceType": "GMObject",
 }
