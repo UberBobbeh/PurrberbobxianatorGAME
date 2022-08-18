@@ -10,6 +10,7 @@ if savedata_get_active("redGem") {
 action = function() {
 	oMissile.gravity = -0.2;
 	sfx_play_sound(sndMissile);
+	oTransporter.destination = rFire;
 	with oDialogue if interactable && !interacted {
 		if active {
 			interactable = false;
