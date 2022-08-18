@@ -8,6 +8,7 @@ if blastmode != 0 with oPlayer {
 		image_blend = other.vertical_direction == 1 ? c_aqua : c_red;
 	}
 	if place_meeting(x, y - vertical_direction, oBlock) {
+		sfx_play_sound(sndSlam);
 		other.blastmode = 0;
 		oCameraSmooth.shake = 8;
 	}
