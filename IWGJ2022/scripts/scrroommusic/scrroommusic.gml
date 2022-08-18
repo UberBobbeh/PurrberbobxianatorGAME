@@ -18,6 +18,8 @@ function bgm_get_room_music(r) {
 			break
 		case rPast:
 			return musHub
+		case rFire:
+			return musFire
 		default:
 			return -1 // don't play any music
 			break

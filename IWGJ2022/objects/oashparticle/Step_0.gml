@@ -3,6 +3,9 @@ if place_meeting(x, y, oBlock) {
 	vspeed = 0
 	gravity = 0
 }
+else {
+	gravity = 0.1
+}
 
 lifetime -= delta_time / 1000000
 if lifetime <= 0 {

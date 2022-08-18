@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sMaskMagenta_1",
-    "path": "sprites/sMaskMagenta_1/sMaskMagenta_1.yy",
+    "name": "sWallOfFire",
+    "path": "sprites/sWallOfFire/sWallOfFire.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -28,11 +28,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Trigger",
-    "path": "folders/Objects/Trigger.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oFireTrigger",
+  "name": "oWallOfFire",
   "tags": [
     "design",
   ],

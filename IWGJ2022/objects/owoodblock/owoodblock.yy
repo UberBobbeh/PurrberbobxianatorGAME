@@ -3,7 +3,7 @@
     "name": "sWoodBlock",
     "path": "sprites/sWoodBlock/sWoodBlock.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

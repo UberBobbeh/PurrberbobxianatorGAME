@@ -1,5 +1,8 @@
 ///@desc Initialize
 
+// Gimmick Variables
+on_fire = false
+
 // Animation
 sprite_idle = sPlayerIdle
 sprite_run = sPlayerRun
