@@ -49,6 +49,11 @@ vspeed_limit = vspeed_limit_normal
 var _water = instance_place(x, y, oWater)
 if (_water)
 {
+	if on_fire {
+		on_fire = false
+		oKidFire.extinguish()
+	}
+	
 	vspeed_limit = vspeed_limit_water
 	velocity.y = min(velocity.y * vertical_direction, vspeed_limit_water) * vertical_direction
 	
