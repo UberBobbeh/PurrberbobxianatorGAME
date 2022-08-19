@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Gimmicks",
+    "path": "folders/Objects/Gimmicks.yy",
   },
   "resourceVersion": "1.0",
   "name": "oKidFire",

@@ -1,4 +1,4 @@
 cherries = 2
 radius = 40
-velocity = -3 * global.fps_adjust
+velocity = -2.5 * global.fps_adjust
 object = oCherry3
