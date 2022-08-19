@@ -152,6 +152,7 @@
     {"id":{"name":"musGravity","path":"sounds/musGravity/musGravity.yy",},"order":4,},
     {"id":{"name":"sJumpRefresher","path":"sprites/sJumpRefresher/sJumpRefresher.yy",},"order":11,},
     {"id":{"name":"sTroll","path":"sprites/sTroll/sTroll.yy",},"order":8,},
+    {"id":{"name":"oWaterTrigger","path":"objects/oWaterTrigger/oWaterTrigger.yy",},"order":13,},
     {"id":{"name":"sFireTrail","path":"sprites/sFireTrail/sFireTrail.yy",},"order":13,},
     {"id":{"name":"sndExtinguish","path":"sounds/sndExtinguish/sndExtinguish.yy",},"order":13,},
     {"id":{"name":"fDialogue","path":"fonts/fDialogue/fDialogue.yy",},"order":1,},

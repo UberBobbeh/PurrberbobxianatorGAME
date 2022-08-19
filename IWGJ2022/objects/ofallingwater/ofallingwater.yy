@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oWater",
-    "path": "objects/oWater/oWater.yy",
+    "name": "oWater2",
+    "path": "objects/oWater2/oWater2.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -34,7 +34,7 @@
     "path": "folders/Objects/Water.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWater2",
+  "name": "oFallingWater",
   "tags": [
     "design",
   ],

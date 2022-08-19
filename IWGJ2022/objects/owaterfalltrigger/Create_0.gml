@@ -1,0 +1,2 @@
+target = pointer_null
+
