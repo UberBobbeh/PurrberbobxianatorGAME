@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 1,
-  "volume": 0.65,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "musgravity.mp3",
-  "duration": 478.72,
+  "soundFile": "sndquickwarp.wav",
+  "duration": 0.835917,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Sound Effects",
+    "path": "folders/Sounds/Sound Effects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "musGravity",
+  "name": "sndQuickWarp",
   "tags": [],
   "resourceType": "GMSound",
 }

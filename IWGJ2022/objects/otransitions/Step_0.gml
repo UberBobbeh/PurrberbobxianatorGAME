@@ -24,6 +24,14 @@ switch mode {
 		if counter == 320 warp(destination, oPlayer, 0, 0, false, true);
 		break;
 	
+	case transitionmode.travelout2:
+		color = c_white;
+		counter ++;
+		if counter == 50 audio_play_sound(sndQuickWarp, 10, false);
+		if counter >= 50 alpha = min(alpha + 0.02, 1);
+		if counter == 120 warp(destination, oPlayer, 0, 0, false, true);
+		break;
+	
 	case transitionmode.travelin:
 		color = c_white;
 		alpha = max(alpha - 0.04, 0);
