@@ -25,6 +25,9 @@ function bgm_get_room_music(r) {
 		case rFire:
 			return musFire
 			break
+		case rSnow:
+			return musSnow
+			break
 		default:
 			return -1 // don't play any music
 			break
