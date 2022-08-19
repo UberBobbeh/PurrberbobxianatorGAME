@@ -10,6 +10,7 @@ if savedata_get_active("blueGem") {
 action = function() {
 	oSnowglobe.image_index = 1;
 	sfx_play_sound(sndSmash);
+	oTransporter.destination = rSnow;
 	with oDialogue if interactable && !interacted {
 		if active {
 			interactable = false;
