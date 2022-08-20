@@ -26,9 +26,6 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"4a97b35f-2e6f-405c-ae07-869488235793","path":"sprites/sSnowflake/sSnowflake.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"4a97b35f-2e6f-405c-ae07-869488235793","path":"sprites/sSnowflake/sSnowflake.yy",},"LayerId":{"name":"1e552d1a-e981-46ee-9b01-d2ccda85e738","path":"sprites/sSnowflake/sSnowflake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"4a97b35f-2e6f-405c-ae07-869488235793","path":"sprites/sSnowflake/sSnowflake.yy",},"LayerId":{"name":"1d69ec64-7ea9-4925-8a01-0003da274c0f","path":"sprites/sSnowflake/sSnowflake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"4a97b35f-2e6f-405c-ae07-869488235793","path":"sprites/sSnowflake/sSnowflake.yy",},"LayerId":{"name":"ee895b6c-ceb2-476a-a19c-1086e6a28809","path":"sprites/sSnowflake/sSnowflake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"4a97b35f-2e6f-405c-ae07-869488235793","path":"sprites/sSnowflake/sSnowflake.yy",},"LayerId":{"name":"a21cc15e-78e5-4601-97a7-98afcff97114","path":"sprites/sSnowflake/sSnowflake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"4a97b35f-2e6f-405c-ae07-869488235793","path":"sprites/sSnowflake/sSnowflake.yy",},"LayerId":{"name":"bedd1458-bc8b-48c4-8b2e-86a98f9a2adc","path":"sprites/sSnowflake/sSnowflake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sSnowflake","path":"sprites/sSnowflake/sSnowflake.yy",},"resourceVersion":"1.0","name":"4a97b35f-2e6f-405c-ae07-869488235793","tags":[],"resourceType":"GMSpriteFrame",},
   ],

@@ -154,7 +154,6 @@
     {"id":{"name":"sndWoodBreak","path":"sounds/sndWoodBreak/sndWoodBreak.yy",},"order":14,},
     {"id":{"name":"oBatteryCutscene","path":"objects/oBatteryCutscene/oBatteryCutscene.yy",},"order":5,},
     {"id":{"name":"tBurntBackgroundTiles","path":"tilesets/tBurntBackgroundTiles/tBurntBackgroundTiles.yy",},"order":6,},
-    {"id":{"name":"sndStatic","path":"sounds/sndStatic/sndStatic.yy",},"order":18,},
     {"id":{"name":"scrRoomMusic","path":"scripts/scrRoomMusic/scrRoomMusic.yy",},"order":5,},
     {"id":{"name":"sVoidBackgroundTiles","path":"sprites/sVoidBackgroundTiles/sVoidBackgroundTiles.yy",},"order":10,},
     {"id":{"name":"sndMissile","path":"sounds/sndMissile/sndMissile.yy",},"order":11,},

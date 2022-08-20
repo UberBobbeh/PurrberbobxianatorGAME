@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"957dc672-97f6-4e3b-bc57-0fa0fcb0cc2f","path":"sprites/sWisdom/sWisdom.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"957dc672-97f6-4e3b-bc57-0fa0fcb0cc2f","path":"sprites/sWisdom/sWisdom.yy",},"LayerId":{"name":"d28aeb13-7d05-4ef2-9265-9d852deec798","path":"sprites/sWisdom/sWisdom.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"957dc672-97f6-4e3b-bc57-0fa0fcb0cc2f","path":"sprites/sWisdom/sWisdom.yy",},"LayerId":{"name":"d4ca726e-669c-4c27-a23e-e34b16f6f7b0","path":"sprites/sWisdom/sWisdom.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"957dc672-97f6-4e3b-bc57-0fa0fcb0cc2f","path":"sprites/sWisdom/sWisdom.yy",},"LayerId":{"name":"d28aeb13-7d05-4ef2-9265-9d852deec798","path":"sprites/sWisdom/sWisdom.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sWisdom","path":"sprites/sWisdom/sWisdom.yy",},"resourceVersion":"1.0","name":"957dc672-97f6-4e3b-bc57-0fa0fcb0cc2f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

@@ -35,7 +35,6 @@ function transition(tmode, tdestination) {
 		case 3:
 			bgm_stop_music();
 			sfx_stop_all();
-			sfx_play_sound(sndStatic);
 			mode = transitionmode.staticout;
 			break;
 	}

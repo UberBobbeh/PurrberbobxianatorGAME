@@ -39,7 +39,7 @@ switch mode {
 		break;
 	
 	case transitionmode.staticout:
-		counter++;
+		counter ++;
 		if counter == 25 warp(destination, oPlayer, 0, 0, false, true);
 		break;
 }
