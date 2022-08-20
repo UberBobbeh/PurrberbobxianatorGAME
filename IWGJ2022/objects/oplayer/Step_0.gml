@@ -14,6 +14,14 @@ if !frozen {
 	button_fall =		input_check_released("jump")
 	button_suicide =	input_check_pressed("suicide")
 	button_fire =		input_check_pressed("shoot")
+} else {
+	button_left =		false
+	button_right =		false
+	button_jump =		false
+	button_jump_held =	false
+	button_fall =		false
+	button_suicide =	false
+	button_fire =		false
 }
 
 // Queued speed

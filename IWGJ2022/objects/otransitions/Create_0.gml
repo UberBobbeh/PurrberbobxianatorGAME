@@ -5,7 +5,8 @@ enum transitionmode {
 	fadein,
 	travelout1,
 	travelout2,
-	travelin
+	travelin,
+	staticout
 }
 
 //Setup Transition
@@ -30,6 +31,12 @@ function transition(tmode, tdestination) {
 			break;
 		case 2: 
 			mode = transitionmode.travelout2;
+			break;
+		case 3:
+			bgm_stop_music();
+			sfx_stop_all();
+			sfx_play_sound(sndStatic);
+			mode = transitionmode.staticout;
 			break;
 	}
 }
