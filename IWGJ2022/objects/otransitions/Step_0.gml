@@ -37,9 +37,9 @@ switch mode {
 		alpha = max(alpha - 0.04, 0);
 		if alpha == 0 mode = transitionmode.none;
 		break;
-	
+		
 	case transitionmode.staticout:
 		counter ++;
-		if counter == 25 warp(destination, oPlayer, 0, 0, false, true);
+		if counter == 15 warp(destination, oPlayer, 0, 0, false, true);
 		break;
 }

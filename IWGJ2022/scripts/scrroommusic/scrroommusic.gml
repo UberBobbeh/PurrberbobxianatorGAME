@@ -28,6 +28,12 @@ function bgm_get_room_music(r) {
 		case rSnow:
 			return musSnow
 			break
+		case rTravel2:
+			return musWind
+			break
+		case rFinale:
+			return musWhispers
+			break
 		default:
 			return -1 // don't play any music
 			break

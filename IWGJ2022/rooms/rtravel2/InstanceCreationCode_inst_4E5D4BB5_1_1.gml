@@ -6,5 +6,5 @@ action = function() {
 	oPlayer.visible = false;
 	global.cutscene = true;
 	sfx_play_sound(sndDoor);
-	with global.transitions transition(1, oTransporter.destination);
+	with global.transitions transition(1, rFinale);
 }

@@ -1,5 +1,5 @@
 //Kill Player
-if place_meeting(x, y, oPlayer) && !destroyed && !global.cutscene {
+if place_meeting(x, y, oPlayer) && !destroyed {
 	player_kill(oPlayer)
 	sfx_play_sound(sndPlayerDeath)
 }

@@ -10,7 +10,7 @@ switch mode {
 	case transitionmode.travelout2: 
 		mode = transitionmode.travelin;
 		break;
-	case transitionmode.staticout:
+	default:
 		mode = transitionmode.none;
 		break;
 }
