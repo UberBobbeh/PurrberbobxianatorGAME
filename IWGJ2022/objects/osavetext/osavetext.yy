@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Misc",
-    "path": "folders/Objects/Misc.yy",
+    "name": "Visuals",
+    "path": "folders/Objects/Visuals.yy",
   },
   "resourceVersion": "1.0",
   "name": "oSaveText",

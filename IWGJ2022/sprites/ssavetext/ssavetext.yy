@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Misc",
-    "path": "folders/Sprites/Misc.yy",
+    "name": "Visuals",
+    "path": "folders/Sprites/Visuals.yy",
   },
   "resourceVersion": "1.0",
   "name": "sSaveText",

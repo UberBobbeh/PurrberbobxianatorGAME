@@ -34,6 +34,9 @@ function bgm_get_room_music(r) {
 		case rFinale:
 			return musWhispers
 			break
+		case rMenu:
+			return musWhispers
+			break
 		default:
 			return -1 // don't play any music
 			break

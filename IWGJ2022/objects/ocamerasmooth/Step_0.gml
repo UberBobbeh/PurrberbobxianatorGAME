@@ -9,8 +9,8 @@ x = lerp(x, idealx, 0.1)
 y = lerp(y, idealy, 0.1)
 
 //Screen Shake
-var shakex = sin(random(360)) * shake;
-var shakey = cos(random(360)) * shake;
+var shakex = sin(random(2 * pi)) * shake;
+var shakey = cos(random(2 * pi)) * shake;
 if stopshake shake = max(shake - 1, 0);
 
 //Set Camera
