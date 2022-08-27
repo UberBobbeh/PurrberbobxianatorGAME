@@ -34,8 +34,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss",
-    "path": "folders/Objects/Boss.yy",
+    "name": "Boss Arena",
+    "path": "folders/Objects/Boss/Boss Arena.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBossSpike",

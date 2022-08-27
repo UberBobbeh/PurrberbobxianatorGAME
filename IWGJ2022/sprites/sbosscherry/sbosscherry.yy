@@ -76,8 +76,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Boss",
-    "path": "folders/Sprites/Boss.yy",
+    "name": "Boss Arena",
+    "path": "folders/Sprites/Boss/Boss Arena.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBossCherry",

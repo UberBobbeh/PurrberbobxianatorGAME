@@ -25,10 +25,10 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"545e86fd-4aec-4523-af80-201a82b09656","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"545e86fd-4aec-4523-af80-201a82b09656","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"LayerId":{"name":"7e9a1e9e-18b6-4840-b641-3538c31db8c5","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"545e86fd-4aec-4523-af80-201a82b09656","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"LayerId":{"name":"4cb7b8be-0b6e-46b3-8500-41579bcfe5a8","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"545e86fd-4aec-4523-af80-201a82b09656","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"LayerId":{"name":"36eb308a-cef7-47e7-9743-71be024f8a50","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"545e86fd-4aec-4523-af80-201a82b09656","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"LayerId":{"name":"ce226cc4-1d2c-40f7-8275-ac1d1bf45ce3","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"545e86fd-4aec-4523-af80-201a82b09656","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"LayerId":{"name":"4cb7b8be-0b6e-46b3-8500-41579bcfe5a8","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"545e86fd-4aec-4523-af80-201a82b09656","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"LayerId":{"name":"7e9a1e9e-18b6-4840-b641-3538c31db8c5","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBossShootSpike","path":"sprites/sBossShootSpike/sBossShootSpike.yy",},"resourceVersion":"1.0","name":"545e86fd-4aec-4523-af80-201a82b09656","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -75,8 +75,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Boss",
-    "path": "folders/Sprites/Boss.yy",
+    "name": "Boss Arena",
+    "path": "folders/Sprites/Boss/Boss Arena.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBossShootSpike",

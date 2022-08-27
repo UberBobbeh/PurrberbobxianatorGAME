@@ -25,8 +25,8 @@
   "gridY": 4,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"240db1c5-3035-4716-b4d9-5b9356fe25ba","path":"sprites/sBossGravAttack/sBossGravAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"240db1c5-3035-4716-b4d9-5b9356fe25ba","path":"sprites/sBossGravAttack/sBossGravAttack.yy",},"LayerId":{"name":"f80c81b2-4e9b-4bcd-9cd8-061ea3390264","path":"sprites/sBossGravAttack/sBossGravAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"240db1c5-3035-4716-b4d9-5b9356fe25ba","path":"sprites/sBossGravAttack/sBossGravAttack.yy",},"LayerId":{"name":"845586e2-2d5e-455f-963d-8f05d0a64feb","path":"sprites/sBossGravAttack/sBossGravAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"240db1c5-3035-4716-b4d9-5b9356fe25ba","path":"sprites/sBossGravAttack/sBossGravAttack.yy",},"LayerId":{"name":"f80c81b2-4e9b-4bcd-9cd8-061ea3390264","path":"sprites/sBossGravAttack/sBossGravAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBossGravAttack","path":"sprites/sBossGravAttack/sBossGravAttack.yy",},"resourceVersion":"1.0","name":"240db1c5-3035-4716-b4d9-5b9356fe25ba","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"398739da-fd57-462f-b3ff-68b32a76098f","path":"sprites/sBossGravAttack/sBossGravAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"398739da-fd57-462f-b3ff-68b32a76098f","path":"sprites/sBossGravAttack/sBossGravAttack.yy",},"LayerId":{"name":"845586e2-2d5e-455f-963d-8f05d0a64feb","path":"sprites/sBossGravAttack/sBossGravAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -76,8 +76,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Boss",
-    "path": "folders/Sprites/Boss.yy",
+    "name": "Boss Attacks",
+    "path": "folders/Sprites/Boss/Boss Attacks.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBossGravAttack",

@@ -14,6 +14,7 @@ function bgm_get_room_music(r) {
 			break
 		case rOpening:
 		case rTravel1:
+		case rClear:
 			return musBirds
 			break
 		case rPast:
@@ -35,7 +36,7 @@ function bgm_get_room_music(r) {
 			return musWhispers
 			break
 		case rMenu:
-			return musWhispers
+			return musMenu
 			break
 		default:
 			return -1 // don't play any music

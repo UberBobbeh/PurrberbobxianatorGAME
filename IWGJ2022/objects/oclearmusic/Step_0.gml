@@ -1,0 +1,1 @@
+if (place_meeting(x, y, oPlayer)) && !audio_is_playing(musClear) audio_play_sound(musClear, 1, true);

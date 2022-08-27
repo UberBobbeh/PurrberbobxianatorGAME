@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss",
-    "path": "folders/Objects/Boss.yy",
+    "name": "Boss Attacks",
+    "path": "folders/Objects/Boss/Boss Attacks.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBossGravSpawner",

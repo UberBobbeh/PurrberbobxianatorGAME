@@ -32,7 +32,7 @@ global.game_playing = false // variable that says when the game is not in the me
 global.game_paused = false // variable that says if the game is paused
 global.game_running = false // variable that says when the game is not in the menu
 global.cutscene = false // variable that says if the game is in a cutscene
-window_set_caption("Synth Engine")
+window_set_caption("I Wanna Experience The Butterfly Effect")
 
 global.gamepad_slot = 0
 global.debug_nodeath = false
@@ -70,6 +70,8 @@ enum SETTING {
 	VSYNC,
 	CONTROL_ROTATIONAL,
 	INPUT_DELAY,
+	SMOOTH_CAMERA,
+	SCREEN_SHAKE,
 	NUMBER
 }
 
@@ -81,6 +83,8 @@ global.setting_default[SETTING.FRAMERATE] = 50
 global.setting_default[SETTING.MUSIC] = 1.0
 global.setting_default[SETTING.SOUND] = 0.8
 global.setting_default[SETTING.VSYNC] = false
+global.setting_default[SETTING.SMOOTH_CAMERA] = true
+global.setting_default[SETTING.SCREEN_SHAKE] = true
 
 if (!config_section_exists(CONFIG_SECTION_SETTINGS)) {
 	ini_open(CONFIG_FILENAME)

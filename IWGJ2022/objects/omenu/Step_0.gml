@@ -146,7 +146,15 @@ if (button_changing != -1) {
 				config_setting_set(SETTING.CONTROL_ROTATIONAL, !global.setting[SETTING.CONTROL_ROTATIONAL])
 				break
 				
-				case /*8*/7: // restore default settings
+				case 7: // toggle smooth camera
+				config_setting_set(SETTING.SMOOTH_CAMERA, !global.setting[SETTING.SMOOTH_CAMERA])
+				break
+				
+				case 8: // toggle screen shake
+				config_setting_set(SETTING.SCREEN_SHAKE, !global.setting[SETTING.SCREEN_SHAKE])
+				break
+				
+				case /*8*/9: // restore default settings
 				config_setting_set_default()
 				break
 			}
@@ -259,7 +267,7 @@ if (button_changing != -1) {
 
 				case /*4*/3: // set music volume
 				config_setting_set(SETTING.MUSIC, global.setting[SETTING.MUSIC] + setting_music_change * (buttonRight - buttonLeft))
-				setting[3] = string(global.setting[SETTING.MUSIC])
+				setting[3] = string(round(global.setting[SETTING.MUSIC] * 100)) + "%"
 				break
 				
 				/*case 5: // set sound effect volume

@@ -5,12 +5,13 @@ if instance_exists(target) {
 }
 
 //Smooth Movement
-x = lerp(x, idealx, 0.1)
-y = lerp(y, idealy, 0.1)
+var rate = global.setting[SETTING.SMOOTH_CAMERA] ? 0.1 : 1;
+x = lerp(x, idealx, rate)
+y = lerp(y, idealy, rate)
 
 //Screen Shake
-var shakex = sin(random(2 * pi)) * shake;
-var shakey = cos(random(2 * pi)) * shake;
+var shakex = sin(random(2 * pi)) * shake * global.setting[SETTING.SCREEN_SHAKE];
+var shakey = cos(random(2 * pi)) * shake * global.setting[SETTING.SCREEN_SHAKE];
 if stopshake shake = max(shake - 1, 0);
 
 //Set Camera

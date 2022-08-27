@@ -24,7 +24,7 @@ if global.cutscene {
 	//End Cutscene
 	if timer == 520 {
 		//Fix Potential Bug
-		if !instance_exists(oTransitions) global.transitions = instance_create_depth(x, y, depth. oTransitions);
+		if !instance_exists(oTransitions) global.transitions = instance_create_depth(x, y, depth, oTransitions);
 		
 		//Transition
 		with global.transitions transition(0, rTravel1);

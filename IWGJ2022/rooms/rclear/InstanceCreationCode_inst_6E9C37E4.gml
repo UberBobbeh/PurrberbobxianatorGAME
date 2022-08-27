@@ -1,0 +1,1 @@
+dialogue = "It's over."

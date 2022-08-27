@@ -9,7 +9,6 @@ if savedata_get_active("redGem") && savedata_get_active("greenGem") && savedata_
 
 action = function() {
 	oPlayer.frozen = true;
-	oPlayer.visible = false;
 	global.cutscene = true;
 	with global.transitions transition(3, rTravel2);
 }

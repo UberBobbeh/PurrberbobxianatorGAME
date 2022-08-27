@@ -10,7 +10,7 @@ idealx = x;
 idealy = y;
 
 //Setup Hurt
-hp = 25;
+hp = 20;
 vulnerable = true;
 hurtalpha = 0;
 cooldown = 0;

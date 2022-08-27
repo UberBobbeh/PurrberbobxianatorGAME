@@ -21,14 +21,14 @@ option_number[MENU_SUB_MAIN] = 5
 option_number[MENU_SUB_SAVE] = oSaveData.save_number
 option_number[MENU_SUB_START] = 2
 option_number[MENU_SUB_OVERWRITE] = 2
-option_number[MENU_SUB_SETTINGS] = 8
+option_number[MENU_SUB_SETTINGS] = 10
 option_number[MENU_SUB_KEYBOARD] = 15
 option_number[MENU_SUB_GAMEPAD] = 12
 
 option_width_max = array_create(menu_number, 0)
 
 // Font variables
-font = fDefault
+font = fMenu
 draw_set_font(font)
 font_width = string_width("0")
 font_height = string_height("0")
@@ -57,7 +57,7 @@ input_delay_max = 10
 
 // Menu titles
 menu = array_create(menu_number, "")
-menu[MENU_SUB_MAIN] = "Replace this menu"
+menu[MENU_SUB_MAIN] = "I Wanna Experience the Butterfly Effect"
 menu[MENU_SUB_SAVE] = "Select Save"
 menu[MENU_SUB_START] = "Game"
 menu[MENU_SUB_OVERWRITE] = "Overwrite save?"
@@ -93,7 +93,9 @@ option[MENU_SUB_SETTINGS][3] = "Volume:"
 option[MENU_SUB_SETTINGS][4] = "Vsync:"
 option[MENU_SUB_SETTINGS][5] = "Gravity control:"
 option[MENU_SUB_SETTINGS][6] = "Input delay:"
-option[MENU_SUB_SETTINGS][7] = "Set defaults"
+option[MENU_SUB_SETTINGS][7] = "Smooth Camera:"
+option[MENU_SUB_SETTINGS][8] = "Screen Shake:"
+option[MENU_SUB_SETTINGS][9] = "Set defaults"
 
 option_color[MENU_SUB_KEYBOARD][11] = c_gray
 option_color[MENU_SUB_KEYBOARD][12] = c_gray

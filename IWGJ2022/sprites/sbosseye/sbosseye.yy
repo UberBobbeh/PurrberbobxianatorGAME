@@ -71,8 +71,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Boss",
-    "path": "folders/Sprites/Boss.yy",
+    "name": "Boss Body",
+    "path": "folders/Sprites/Boss/Boss Body.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBossEye",

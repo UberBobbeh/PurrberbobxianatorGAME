@@ -80,7 +80,7 @@ switch (menu_index) {
 
 draw_set_color(c_white)
 
-// Draw helping text
+/*// Draw helping text
 draw_set_halign(fa_right)
 draw_text(
 	room_width - menu_padding,
@@ -89,4 +89,4 @@ draw_text(
 	"[" + keyboard_button_to_string(input_get_keyboard_mapping("shoot")) + "]: Back" + "\n" +
 	"[" + keyboard_button_to_string(input_get_keyboard_mapping("left")) + "/" +
 		keyboard_button_to_string(input_get_keyboard_mapping("right")) + "]: Change gradient setting")
-draw_set_halign(fa_left)
+draw_set_halign(fa_left)*/

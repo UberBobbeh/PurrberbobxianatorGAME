@@ -21,12 +21,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oSnowflake","path":"objects/oSnowflake/oSnowflake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss",
-    "path": "folders/Objects/Boss.yy",
+    "name": "Boss Blockers",
+    "path": "folders/Objects/Boss/Boss Blockers.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBossSpikeBouncer",

@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss",
-    "path": "folders/Objects/Boss.yy",
+    "name": "Boss Warnings",
+    "path": "folders/Objects/Boss/Boss Warnings.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBossSpikeWarning3",

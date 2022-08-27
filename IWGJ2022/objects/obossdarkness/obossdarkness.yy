@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss",
-    "path": "folders/Objects/Boss.yy",
+    "name": "Boss Visuals",
+    "path": "folders/Objects/Boss/Boss Visuals.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBossDarkness",

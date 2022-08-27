@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Boss",
-    "path": "folders/Sprites/Boss.yy",
+    "name": "Boss Warnings",
+    "path": "folders/Sprites/Boss/Boss Warnings.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBossCherryWarning",

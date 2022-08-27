@@ -14,6 +14,14 @@ if !frozen {
 	button_fall =		input_check_released("jump")
 	button_suicide =	input_check_pressed("suicide")
 	button_fire =		input_check_pressed("shoot")
+} else {
+	button_left =		false
+	button_right =		false
+	button_jump =		false
+	button_jump_held =	false
+	button_fall =		false
+	button_suicide =	false
+	button_fire =		false
 }
 
 // Queued speed
@@ -24,13 +32,13 @@ queued_speed.set(0, 0)
 #region Run & Facing
 var _rotControl = (global.setting[SETTING.CONTROL_ROTATIONAL] && vertical_direction == -1) ? -1 : 1
 
-if (button_left) && !frozen
+if (button_left)
 {
 	facing = -1 * _rotControl
 	velocity.x -= run_speed * _rotControl
 	running = true
 }
-else if (button_right) && !frozen
+else if (button_right)
 {
 	facing = 1 * _rotControl
 	velocity.x += run_speed * _rotControl
@@ -162,7 +170,7 @@ if (button_jump)
 }
 
 // Fall
-if (button_fall && velocity.y * vertical_direction < 0.0)
+if ((button_fall || frozen) && velocity.y * vertical_direction < 0.0)
 	velocity.y *= fall_multiplier
 
 #region Block collisions & movement

@@ -79,6 +79,14 @@ function config_setting_set(setting_index, value) {
 		global.setting[setting_index] = value
 		input_set_delay(value)
 		break
+		
+		case SETTING.SMOOTH_CAMERA:
+		global.setting[setting_index] = value ? true : false
+		break
+		
+		case SETTING.SCREEN_SHAKE:
+		global.setting[setting_index] = value ? true : false
+		break
 	
 		default: // exit the script is non-existant setting value is passed
 		exit

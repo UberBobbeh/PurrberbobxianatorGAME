@@ -8,7 +8,7 @@ with instance_create_depth(x, y, depth + 1, oBossPart) {
 	image_xscale = other.image_xscale;
 	image_yscale = other.image_yscale;
 	image_alpha = 0.8;
-	growrate = 0.01;
+	growrate = 0.02;
 }
 
 if place_meeting(x, y, oBlock) && vspeed > 0 {

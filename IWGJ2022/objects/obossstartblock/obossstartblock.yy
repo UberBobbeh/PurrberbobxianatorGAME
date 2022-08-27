@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss",
-    "path": "folders/Objects/Boss.yy",
+    "name": "Boss Blockers",
+    "path": "folders/Objects/Boss/Boss Blockers.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBossStartBlock",

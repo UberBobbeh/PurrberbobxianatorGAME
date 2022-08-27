@@ -1,3 +1,3 @@
 destroy = true
-depth = 100
+depth = 200
 burn_time_mod = 0

@@ -37,6 +37,7 @@ function world_restart_game() {
 	
 	//Stop Sounds
 	audio_stop_sound(sndWarp);
+	audio_stop_sound(musClear);
 	
 	room_goto(MENU_ROOM)
 }

@@ -8,8 +8,9 @@ with instance_create_depth(x, y, depth + 1, oBossPart) {
 	image_alpha = 0.5;
 }
 
-if instance_exists(oBoss) {
-	var angle = point_direction(x, y, oBoss.x, oBoss.y);
+var target = instance_exists(oBoss) ? oBoss : oBossFinal
+if instance_exists(target) {
+	var angle = point_direction(x, y, target.x, target.y);
 	x += lengthdir_x(12, angle);
 	y += lengthdir_y(12, angle);
 }
