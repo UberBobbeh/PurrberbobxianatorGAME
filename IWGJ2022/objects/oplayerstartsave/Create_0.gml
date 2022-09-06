@@ -1,4 +1,4 @@
 // Inherit the parent event
 event_inherited()
 
-save = true
+save = savedata_get_active("difficulty") != DIFFICULTY.DEATHLESS || significant;

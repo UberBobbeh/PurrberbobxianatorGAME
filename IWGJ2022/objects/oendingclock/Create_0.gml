@@ -1,0 +1,1 @@
+image_index = savedata_get_active("difficulty");

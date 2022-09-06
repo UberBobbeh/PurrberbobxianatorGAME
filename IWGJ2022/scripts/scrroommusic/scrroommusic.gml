@@ -14,7 +14,6 @@ function bgm_get_room_music(r) {
 			break
 		case rOpening:
 		case rTravel1:
-		case rClear:
 			return musBirds
 			break
 		case rPast:
@@ -38,6 +37,8 @@ function bgm_get_room_music(r) {
 		case rMenu:
 			return musMenu
 			break
+		case rClear:
+			return savedata_get_active("difficulty") == DIFFICULTY.DEATHLESS ? musCrickets : musBirds;
 		default:
 			return -1 // don't play any music
 			break

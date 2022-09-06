@@ -59,9 +59,10 @@ function savedata_set_defaults() {
 
 ///@func		savedata_new_game()
 ///@desc		Sets global.savedata.save and global.savedata.save_active to default values
-function savedata_new_game() {
+function savedata_new_game(difficulty) {
 
 	savedata_set_defaults()
+	savedata_set_active("difficulty", difficulty);
 	
 	savedata_start_game(false)
 }

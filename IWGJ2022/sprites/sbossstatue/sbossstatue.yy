@@ -25,8 +25,8 @@
   "gridY": 4,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"17413e25-eafe-4433-91f5-195861f7f073","path":"sprites/sBossStatue/sBossStatue.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"17413e25-eafe-4433-91f5-195861f7f073","path":"sprites/sBossStatue/sBossStatue.yy",},"LayerId":{"name":"a5405f21-6b34-4aeb-bb56-05f9855c2128","path":"sprites/sBossStatue/sBossStatue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"17413e25-eafe-4433-91f5-195861f7f073","path":"sprites/sBossStatue/sBossStatue.yy",},"LayerId":{"name":"a9c3ff35-3054-4a14-8255-75f1bd1b27d4","path":"sprites/sBossStatue/sBossStatue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"17413e25-eafe-4433-91f5-195861f7f073","path":"sprites/sBossStatue/sBossStatue.yy",},"LayerId":{"name":"a5405f21-6b34-4aeb-bb56-05f9855c2128","path":"sprites/sBossStatue/sBossStatue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBossStatue","path":"sprites/sBossStatue/sBossStatue.yy",},"resourceVersion":"1.0","name":"17413e25-eafe-4433-91f5-195861f7f073","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

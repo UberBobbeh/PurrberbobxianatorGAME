@@ -26,7 +26,13 @@ switch phase {
 		}
 		
 		//Start Attack
-		if counter == 100 oBossGravSpawner.active = true;
+		if counter == 100 {
+			oBossGravSpawner.active = true;
+			if impossible {
+				oBossGravImpSpawner1.active = true;
+				oBossGravImpSpawner2.active = true;	
+			}
+		}
 		
 		if counter == 120 {
 			//Spawn Cherries
@@ -52,6 +58,9 @@ switch phase {
 			instance_destroy(oBossPart);
 			instance_destroy(oBossGravAttack);
 			instance_destroy(oBossGravSpawner);
+			instance_destroy(oBossGravImp);
+			instance_destroy(oBossGravImpSpawner1);
+			instance_destroy(oBossGravImpSpawner2);
 			sfx_play_sound(sndBossEndPhase);
 			oBossFlash.alpha = 1;
 			oBoss.vulnerable = false;
@@ -77,13 +86,18 @@ switch phase {
 			oBossCherryWarning2.active = true;
 			oBossSpikeWarning2.active = true;
 			oBossSpikeWarning3.active = true;
+			oBossGimmickWarning1.active = true;
+			oBossGimmickWarning2.active = true;
 		}
 		
 		//Screen Shake
 		if counter > 25 && counter < 105 oCameraSmooth.shake = 8;
 		
 		//Start Attack
-		if counter == 50 oBossCherrySpawner.active = true;
+		if counter == 50 {
+			oBossCherrySpawner.active = true;
+			if impossible oBossShotImpSpawner.active = true;	
+		}
 		
 		if counter == 95 {
 			//Spawn Cherries
@@ -129,8 +143,10 @@ switch phase {
 			instance_destroy(oKidFire);
 			instance_destroy(oBossCherrySpawner);
 			instance_destroy(oWoodParticle);
+			instance_destroy(oBossShotImp);
+			instance_destroy(oBossShotImpSpawner);
 			sfx_play_sound(sndBossEndPhase);
-			oPlayer.image_blend = c_white;
+			with oPlayer image_blend = c_white;
 			oBossFlash.alpha = 1;
 			oBoss.vulnerable = false;
 			oCameraSmooth.shake = 16;
@@ -143,7 +159,7 @@ switch phase {
 	//Ice Phase
 	case 3:
 	//Set HP
-		if counter == 0 oBoss.hp = 25;
+		if counter == 0 oBoss.hp = impossible ? 20 : 25;
 	
 		if counter <= 175 counter ++;
 		
@@ -163,6 +179,7 @@ switch phase {
 			oBossWarning.active = false;
 			oBossSnowflakeSpawner.active = true;
 			oBossCherrySpawner2.active = true;
+			if impossible oBossIceImpSpawner.active = true;	
 			oBossSpikeWarning4.active = true;
 			sfx_play_sound(sndScreech);
 		}
@@ -184,6 +201,8 @@ switch phase {
 			instance_destroy(oBossPart);
 			instance_destroy(oBossCherry3);
 			instance_destroy(oBossCherrySpawner2);
+			instance_destroy(oBossIceImp);
+			instance_destroy(oBossIceImpSpawner);
 			sfx_play_sound(sndBossEndPhase);
 			oBossFlash.alpha = 1;
 			oBoss.vulnerable = false;
@@ -221,7 +240,10 @@ switch phase {
 		if counter > 170 oCameraSmooth.shake = max(oCameraSmooth.shake, 1);
 		
 		//Start Attack
-		if counter == 170 oBossFinalProjectileSpawner.active = true;
+		if counter == 170 {
+			oBossFinalProjectileSpawner.active = true;
+			if impossible oBossBombImpSpawner.active = true;	
+		}
 			
 		//Spawn Spike
 		if counter == 170 with oBossSpikeWarning5 {
@@ -239,6 +261,9 @@ switch phase {
 			instance_destroy(oBossPart);
 			instance_destroy(oBossFinalProjectileSpawner);
 			instance_destroy(oBossKiller);
+			instance_destroy(oBossBombImpSpawner);
+			instance_destroy(oBossBombImp);
+			instance_destroy(oBossCherryImp);
 			sfx_play_sound(sndBossEndPhase);
 			bgm_stop_music()
 			oCameraSmooth.shake = 16;

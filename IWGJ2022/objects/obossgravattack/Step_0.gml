@@ -1,6 +1,6 @@
 image_xscale = lerp(image_xscale, idealscale, 0.1);
 image_yscale = image_xscale;
-image_angle += 1;
+image_angle += 3;
 
 with instance_create_depth(x, y, depth + 1, oBossPart) {
 	sprite_index = other.sprite_index;

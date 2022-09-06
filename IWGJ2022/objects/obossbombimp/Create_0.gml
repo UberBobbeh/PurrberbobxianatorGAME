@@ -1,0 +1,9 @@
+image_index = irandom(3);
+cherries = irandom_range(12, 20);
+cherryspd = random_range(3, 5);
+image_xscale = 3 + 0.1 * (cherries - 12);
+image_yscale = image_xscale
+idealscale = image_xscale * 1.5;
+counter = 0;
+ydist = random_range(180, 250);
+rotation = random_range(-12, 12);

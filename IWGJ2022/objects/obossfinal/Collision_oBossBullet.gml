@@ -2,7 +2,7 @@ instance_destroy(other)
 
 //Hurt
 if vulnerable {
-	hp --;
+	if instance_exists(oPlayer) hp --;
 	//Animation
 	if hp > 0 {
 		hurtalpha = 1;

@@ -19,13 +19,16 @@ option_index = 0
 option_number = array_create(menu_number)
 option_number[MENU_SUB_MAIN] = 5
 option_number[MENU_SUB_SAVE] = oSaveData.save_number
-option_number[MENU_SUB_START] = 2
+option_number[MENU_SUB_START] = 4
 option_number[MENU_SUB_OVERWRITE] = 2
 option_number[MENU_SUB_SETTINGS] = 10
 option_number[MENU_SUB_KEYBOARD] = 15
 option_number[MENU_SUB_GAMEPAD] = 12
 
 option_width_max = array_create(menu_number, 0)
+
+//Difficulty
+difficulty = DIFFICULTY.NORMAL;
 
 // Font variables
 font = fMenu
@@ -81,7 +84,9 @@ for (var i = 0; i < oSaveData.save_number; i++) {
 	option[MENU_SUB_SAVE,i] = "Save " + string(i+1)
 }
 option[MENU_SUB_START][0] = "Continue"
-option[MENU_SUB_START][1] = "Start New Game"
+option[MENU_SUB_START][1] = "Start New Game (Normal)"
+option[MENU_SUB_START][2] = "Start New Game (Impossible)"
+option[MENU_SUB_START][3] = "Start New Game (Deathless)"
 option[MENU_SUB_OVERWRITE][0] = "No"
 option[MENU_SUB_OVERWRITE][1] = "Yes"
 option[MENU_SUB_SETTINGS][0] = "Fullscreen:"

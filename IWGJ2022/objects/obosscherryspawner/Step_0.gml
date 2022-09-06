@@ -3,7 +3,7 @@ if active {
 	if cooldown == 0 {
 		var pick = irandom_range(0, 2)
 		for (var i = 0; i <= 3; i ++) instance_create_depth(x, y + i * 32, depth, (i == pick ? oBossWoodCherry : oBossCherry2));
-		cooldown = 70;
+		cooldown = oBossController.impossible ? 70 : 60;
 		sfx_play_sound(sndBossCherryShot);
 	}
 }

@@ -59,6 +59,13 @@ global.transitions = instance_create_layer(0, 0, layer, oTransitions);
 global.input.initialize()
 savedata_set_defaults()
 
+//Difficulty
+enum DIFFICULTY {
+	NORMAL = 0,
+	IMPOSSIBLE = 1,
+	DEATHLESS = 2
+}
+
 #region Settings
 enum SETTING {
 	FULLSCREEN,

@@ -32,16 +32,16 @@ queued_speed.set(0, 0)
 #region Run & Facing
 var _rotControl = (global.setting[SETTING.CONTROL_ROTATIONAL] && vertical_direction == -1) ? -1 : 1
 
-if (button_left)
-{
-	facing = -1 * _rotControl
-	velocity.x -= run_speed * _rotControl
-	running = true
-}
-else if (button_right)
+if (button_right)
 {
 	facing = 1 * _rotControl
 	velocity.x += run_speed * _rotControl
+	running = true
+}
+else if (button_left)
+{
+	facing = -1 * _rotControl
+	velocity.x -= run_speed * _rotControl
 	running = true
 }
 else
@@ -71,21 +71,25 @@ if (_water)
 #endregion
 
 #region Vines
-var _vine = place_meeting(x + facing, y + facing, oVine)
+
+var vineface = input_check_pressed("right") - input_check_pressed("left");
+if vineface == 0 vineface = facing;
+
+var _vine = place_meeting(x + vineface, y + vineface, oVine)
 sliding = false
 
 if (_vine)
 {
 	sliding = true
-	vine_direction = facing
+	vine_direction = vineface
 	vspeed_limit = vspeed_limit_vine
 	velocity.y = vspeed_limit_vine * vertical_direction
 }
 else if (vine_direction != 0 && !_vine)
 {
-	if (button_jump_held && facing != vine_direction)
+	if (button_jump_held && vineface != vine_direction)
 	{
-		velocity.x = vine_hpush * facing
+		velocity.x = vine_hpush * vineface
 		velocity.y = -jump_strength * vertical_direction
 		situated = false
 		sfx_play_sound(vinejump_sound)

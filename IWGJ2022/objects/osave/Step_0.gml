@@ -3,7 +3,7 @@ animation_counter = max(animation_counter - 1, 0)
 percent = min(percent + 0.08, 1);
 
 //Save
-if instance_exists(oPlayer) && place_meeting(x, y, oPlayer) && oPlayer.vertical_direction == 1 && input_check_pressed("shoot") {
+if instance_exists(oPlayer) && place_meeting(x, y, oPlayer) && oPlayer.vertical_direction == 1 && sprite_index != sSaveAbsent && input_check_pressed("shoot") {
 	//Setup Animation
 	animation_counter = animation_length
 	percent = 0;

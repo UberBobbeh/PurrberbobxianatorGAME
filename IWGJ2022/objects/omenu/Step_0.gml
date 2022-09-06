@@ -100,10 +100,13 @@ if (button_changing != -1) {
 					savedata_load()
 				break
 				
-				case 1: // new game
+				case 1:
+				case 2:
+				case 3: // new game
 				if (!savedata_exists()) {
-					savedata_new_game()
+					savedata_new_game(option_index)
 				} else {
+					difficulty = option_index - 1
 					menu_index = MENU_SUB_OVERWRITE
 					option_index = 0
 				}
@@ -119,7 +122,7 @@ if (button_changing != -1) {
 				break
 				
 				case 1: // yes
-				savedata_new_game()
+				savedata_new_game(difficulty)
 				break
 			}
 			break

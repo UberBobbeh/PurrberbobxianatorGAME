@@ -1,0 +1,2 @@
+if savedata_get_active("difficulty") == DIFFICULTY.IMPOSSIBLE layer_background_blend(layer_background_get_id("Background"), make_color_rgb(255, 164, 51));
+if savedata_get_active("difficulty") == DIFFICULTY.DEATHLESS layer_background_blend(layer_background_get_id("Background"), make_color_rgb(14, 0, 117));

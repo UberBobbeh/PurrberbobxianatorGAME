@@ -7,7 +7,8 @@ draw_sprite_ext(sprite_index, 0, x, drawy, image_xscale, image_yscale, spin, ima
 spin = (spin + 0.5) % 360
 
 //Eye
-draw_sprite(sprite_index, 1, x, drawy);
+//draw_sprite(sprite_index, 1, x, drawy);
+draw_sprite_ext(sprite_index, 1, x, drawy, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 draw_sprite_ext(sprite_index, 1, x, drawy, image_xscale, image_yscale, image_angle, c_red, hurtalpha);
 hurtalpha = max(hurtalpha - 0.05, 0);
 
